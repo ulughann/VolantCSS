@@ -1,0 +1,11 @@
+// Description: This file contains the final CSS changes for the framework.
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown > :last-of-type {
+  position: absolute;
+  left: 0;
+  white-space: nowrap;
+}

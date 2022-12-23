@@ -1,0 +1,159 @@
+/*!
+  Theme: Atom One Dark
+  Description: Original highlight.js style
+  Author: (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+  Maintainer: @highlightjs/core-team
+  Website: https://highlightjs.org/
+  License: see project LICENSE
+  Touched: 2021
+*/
+pre {
+    background-color: #282c33;
+  }
+  
+  pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    color: #abb2bf;
+
+  }
+  
+  pre code.hljs {
+    background: #282c33;
+  }
+
+  code.hljs {
+    padding: 3px 5px
+  }
+  
+  .hljs {
+    background: #282c33;
+    color: #abb2bf
+  }
+  
+  .hljs-comment {
+    color: #495360
+  }
+  
+  .hljs-punctuation {
+    color: #e5c07a
+  }
+  .hljs-tag {
+    color: #444a
+  }
+  
+  .hljs-tag .hljs-attr {
+    color: #e5c07a
+  }
+  .hljs-tag .hljs-name {
+    color: #444
+  }
+  
+  .hljs-attribute {
+    color: #e5c07a
+  }
+  .hljs-doctag {
+    color: #e5c07a;
+  }
+  .hljs-keyword {
+    color: #c678dd;
+  }
+  .hljs-meta .hljs-keyword {
+    color: #e5c07a
+  }
+  .hljs-name {
+    color: #e5c07a
+  }
+  .hljs-selector-tag {
+    font-weight: 700
+  }
+  
+  .hljs-deletion {
+    color: #55b6c2;
+  }
+  .hljs-number {
+     color: #98c379;
+  }
+  .hljs-quote,
+  .hljs-selector-class {
+    color: #e5c07a
+  }
+  .hljs-selector-id {
+    color: #e5c07a;
+  }
+  .hljs-string {
+    color: #98c379
+  
+  }
+  .hljs-template-tag {
+    color: #e5c07a
+  
+  }
+  .hljs-type {
+    color: rgb(75, 204, 211)
+  }
+  
+  .hljs-section,
+  .hljs-title {
+    color: #e06b74;
+    font-weight: 700
+  }
+  
+  .hljs-link {
+    color: #e5c07a
+  }
+  .hljs-operator {
+    color: #55b6c2;
+  }
+  .hljs-regexp {
+    color: #e5c07a
+  }
+  .hljs-selector-attr {
+    color: #e5c07a
+  }
+  .hljs-selector-pseudo {
+    color: #e5c07a
+  }
+  .hljs-symbol {
+    color: #98c379
+  }
+  .hljs-template-variable {
+    color: #e5c07a
+  }
+  .hljs-variable {
+    color: #e5c07a
+  }
+  
+  .hljs-literal {
+    color: #695
+  }
+  
+  .hljs-addition {
+    color: #55b6c2;
+  }
+  .hljs-built_in {
+    color: #e5c07a
+  }
+  .hljs-bullet {
+    color: #e5c07a
+  }
+  .hljs-code {
+    color: #397300
+  }
+  
+  .hljs-meta {
+    color: #1f7199
+  }
+  
+  .hljs-meta .hljs-string {
+    color: #38a
+  }
+  
+  .hljs-emphasis {
+    font-style: italic
+  }
+  
+  .hljs-strong {
+    font-weight: 700
+  }

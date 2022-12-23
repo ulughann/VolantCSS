@@ -1,0 +1,207 @@
+// Description: Utility classes
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.bg-light {
+    background-color: var(--color-secondary) !important;
+}
+
+.bg-dark {
+    background-color: var(--color-darkGrey) !important;
+}
+
+.bg-grey {
+    background-color: var(--color-grey) !important;
+}
+
+.bg-danger {
+    background-color: var(--color-danger) !important;
+}
+
+.bg-success {
+    background-color: var(--color-success) !important;
+}
+
+.border-primary {
+    border: 1px solid var(--color-primary) !important;
+}
+
+.border-light {
+    border: 1px solid var(--color-secondary) !important;
+}
+
+.border-dark {
+    border: 1px solid var(--color-darkGrey) !important;
+}
+
+.border-grey {
+    border: 1px solid var(--color-grey) !important;
+}
+
+.border-danger {
+    border: 1px solid var(--color-danger) !important;
+}
+
+.border-success {
+    border: 1px solid var(--color-success) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.text-light {
+    color: var(--color-secondary) !important;
+}
+
+.text-dark {
+    color: var(--color-darkGrey) !important;
+}
+
+.text-grey {
+    color: var(--color-grey) !important;
+}
+
+.text-danger {
+    color: var(--color-danger) !important;
+}
+
+.text-success {
+    color: var(--color-success) !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Position & alignment */
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.is-full-screen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.is-full-width {
+    width: 100% !important;
+}
+
+.is-vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.is-horizontal-align {
+    display: flex;
+    justify-content: center;
+}
+
+.is-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.is-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.is-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.is-fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.is-paddingless {
+    padding: 0 !important;
+}
+
+.is-marginless {
+    margin: 0 !important;
+}
+
+.is-pointer {
+    cursor: pointer !important;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.is-hidden {
+    display: none !important;
+}
+
+@media screen and (max-width: 599px) {
+    .hide-tiny {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .hide-small {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+    .hide-mid {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hide-long {
+        display: none !important;
+    }
+}
+
+@media print {
+    .hide-print {
+        display: none !important;
+    }
+}

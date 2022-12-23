@@ -1,0 +1,100 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="stylesheet" href="/highlight.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<script src="/index.js"></script>
+<link rel="stylesheet" href="/dist/volant.min.css" type="text/css" media="screen" />
+<style>
+  html {
+  scroll-behavior: smooth;
+}
+</style>
+
+
+<body class="bg-dark" style="  overflow-x: hidden;">
+
+  <nav class="nav" style="  position: fixed;top: 0;left: 0;width: 100%;z-index: 999;">
+    <img class="xd" style="margin-top: 12px; overflow: hidden; object-fit: cover; height: 42px; width: 42px;"  src="https://cdn.discordapp.com/attachments/1002536380280340512/1055139788874850314/blank.png" width="56">
+
+      <div class="nav-left">
+        <div class="tabs">
+          <a class="text-white active" id="one" href="#title">Home</a>
+          <a class="text-white" id="two" href="#docs">Features</a>
+        </div>
+      </div>
+      <div class="nav-right">
+        
+       <button class="button outline text-white">
+        <img src="https://icongr.am/material/discord.svg?size=16&color=ffffff" alt="icon">
+
+        Join us on Discord
+       </button> 
+      </div>
+    </nav>
+
+    <main>
+ <center>
+      <div>
+        <br>
+        <br>
+        <br>
+        <h1 class="title text-white" style=" margin-bottom: 0px; margin-top: 30px; font-size: 64px;" id="title">VolantCSS</h1>
+        <small><em class="subtitle" style="color: darkgray; margin-bottom: 0px;">The lightweight CSS framework</em></small>
+        <br><br>
+        <button data-target="modal-js-example"class="button outline text-white js-modal-trigger is-primary">
+          <img src="https://icongr.am/fontawesome/copy.svg?size=16&color=ffffff" alt="icon">
+          Add to your project
+         </button> 
+         <button class="button outline primary">
+          <img src="https://icongr.am/fontawesome/folder-open-o.svg?size=16&color=525dd9" alt="icon">
+          <a class="text-primary" href="#docs">Documentations</a>
+         </button> 
+        <br><br>
+        <img style="margin-top: 0px" src="C:\Users\cosmos\Desktop\volant\images\code.png" width="1000" height="auto">
+      </div>
+
+    </center>
+    </main>
+   <br>
+  <docs>
+<center>
+
+  <h1 class="title text-white" style="font-size: 48px;" id="docs">Features</h1>
+  <small><em class="subtitle" style="color: darkgray;">VolantCSS is a lightweight CSS framework that is easy to use and customize.</em></small>
+  <br><br>
+
+
+
+
+</center>
+
+  </docs>
+
+
+
+  
+<div  id="modal-js-example" style="z-index: 9999;" class="modal">
+  <div class="modal-background "></div>
+
+  <div style="background-color: black;" class="modal-content" >
+    <div class="box">
+      <p class="title">Add VolantCSS and get started</p>
+      <p class="title has-text-link-dark is-2">For HTML</p>
+      <pre><code class="language-html">&lt;link rel="stylesheet" href="jsdeliver.colant.min.css" type="text/css" media="screen" /&gt;      </code></pre>
+      <button onclick="copy('test')" class="button dark">
+        <img src="https://icongr.am/fontawesome/copy.svg?size=16&color=ffffff" alt="icon">
+        Copy to clipboard
+       </button> 
+      <br><br>
+      <p class="title has-text-link-dark is-2">For CSS</p>
+      <pre><code class="language-css">@import url("volant.min.css")</code></pre>
+      <button onclick="copy('test')" class="button dark">
+        <img src="https://icongr.am/fontawesome/copy.svg?size=16&color=ffffff" alt="icon">
+        Copy to clipboard
+       </button> 
+  </div>
+  </div>
+
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+</body>
