@@ -1,6 +1,10 @@
-function copy(link) {
-    navigator.clipboard.writeText(link);
-    alert("Copied the text: " + link);
+function copy1() {
+    navigator.clipboard.writeText(`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iscosmos/volantCSS/dist/volant.min.css" type="text/css" media="screen">`);
+    alert("Copied the text");
+  }
+  function copy2() {
+    navigator.clipboard.writeText(`@import url("https://cdn.jsdelivr.net/gh/iscosmos/volantCSS/dist/volant.min.css"`);
+    alert("Copied the text");
   }
 
   document.addEventListener('DOMContentLoaded', () => {
